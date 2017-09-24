@@ -2,19 +2,19 @@ body {
 	background-color: blue;
 }
 
-@media (min-width: 675px) {
+@media (max-width: 1080px) {
 	body {
 		background-color: orange;
 	}
 }
 
-@media (min-width: 999px) {
+@media (max-width: 550px) {
 	body {
 		background-color: green;
 	}
 }
 
-@media (min-width: 1280px) {
+@media (max-width: 400px) {
 	body {
 		background-color: yellow;
 	}
